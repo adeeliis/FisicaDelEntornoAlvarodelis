@@ -23,7 +23,7 @@ def main():
 
     sim.setStepping(True)
     sim.startSimulation()
-    sim.addLog(sim.verbosity_scriptinfos, "Práctica 4 - Redundancia de sensores (main4.py)")
+    sim.addLog(sim.verbosity_scriptinfos, "Práctica 4 - Redundancia de sensores")
 
     # Obtener handles
     robot = sim.getObject("/PioneerP3DX")
